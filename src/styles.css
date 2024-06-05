@@ -1,3 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.shadow_club {
+    box-shadow: 0px 4px 0px 0px #1D54C0 inset;
+}
