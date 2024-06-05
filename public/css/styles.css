@@ -504,6 +504,9 @@ video {
 .mb-10 {
   margin-bottom: 2.5rem;
 }
+.mb-20 {
+  margin-bottom: 5rem;
+}
 .mb-3 {
   margin-bottom: 0.75rem;
 }
@@ -518,12 +521,6 @@ video {
 }
 .mt-8 {
   margin-top: 2rem;
-}
-.mb-20 {
-  margin-bottom: 5rem;
-}
-.mb-\[120px\] {
-  margin-bottom: 120px;
 }
 .flex {
   display: flex;
@@ -571,20 +568,20 @@ video {
 .grid-cols-4 {
   grid-template-columns: repeat(4, minmax(0, 1fr));
 }
-.grid-cols-3 {
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-}
 .items-center {
   align-items: center;
-}
-.justify-start {
-  justify-content: flex-start;
 }
 .justify-between {
   justify-content: space-between;
 }
 .gap-10 {
   gap: 2.5rem;
+}
+.overflow-x-hidden {
+  overflow-x: hidden;
+}
+.scroll-smooth {
+  scroll-behavior: smooth;
 }
 .rounded-lg {
   border-radius: 0.5rem;
@@ -691,6 +688,9 @@ video {
   padding-top: 70px;
   padding-bottom: 70px;
 }
+.pb-10 {
+  padding-bottom: 2.5rem;
+}
 .pb-12 {
   padding-bottom: 3rem;
 }
@@ -726,9 +726,6 @@ video {
 }
 .pt-\[86\.5px\] {
   padding-top: 86.5px;
-}
-.pb-10 {
-  padding-bottom: 2.5rem;
 }
 .text-left {
   text-align: left;
@@ -817,18 +814,21 @@ video {
     box-shadow: 0px 4px 0px 0px #1D54C0 inset;
 }
 
+.hover_effect{
+    transition: opacity 0.6s ease;
+}
+.effect_container:hover > :not(:hover){
+    opacity: 0.5;
+}
 .placeholder\:text-\[\#11111899\]::-moz-placeholder {
   color: #11111899;
 }
-
 .placeholder\:text-\[\#11111899\]::placeholder {
   color: #11111899;
 }
-
 .hover\:opacity-70:hover {
   opacity: 0.7;
 }
-
 @media (min-width: 768px) {
 
   .md\:block {
